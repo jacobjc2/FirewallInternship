@@ -408,7 +408,7 @@ public class Controller : MonoBehaviour {
 		FRule wrong2 = new FRule( "INPUT", "77.75.77.20", 80, "REJECT" );
 
 		FRule correct2 =new FRule ( "OUTPUT", "177.75.77.12", 1433, "ACCEPT" );
-		FRule wrong21 =new FRule ( "OUTPUT", "177.75.77.12", 1433, "ACCEPT" );
+		FRule wrong21 =new FRule ( "OUTPUT", "177.75.77.12", 1433, "REJECT" );
 		FRule wrong22 = new FRule( "OUTPUT", "177.75.77.12", 1443, "DROP" );
 
 		FRule correct3 =new FRule ( "INPUT", "200.30.175.162", 1433, "ACCEPT" );
